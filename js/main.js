@@ -74,7 +74,7 @@ let cars = [
   const vehiculo3 = new Vehiculos("RS", "Mitsubishi Eclipse", "Verde");
   const vehiculo4 = new Vehiculos("370Z", "El Nissan", "Gris");
   
-  console.log(vehiculo1, vehiculo2, vehiculo3);
+  console.log(vehiculo1, vehiculo2, vehiculo3, vehiculo4);
   vehiculo1.confort();
   vehiculo2.confort();
   vehiculo3.confort();
