@@ -1,6 +1,7 @@
 const autoContent = document.getElementById("autoContent")
 const verCarrito = document.getElementById("verCarrito");
 const modalContainer = document.getElementById("modal-container");
+const cantidadCarrirto = document.getElementById("cantidadCarrito");
 
 let carrito = JSON.parse(localStorage.getItem("carrito")) || [];
 
@@ -40,6 +41,8 @@ productos.forEach((product)=> {
     });
   }
     console.log(carrito);
+    carritoCounter();
+    saveLocal();
   })
 });
 
